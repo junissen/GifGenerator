@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIPHY App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/ajax-css.css">
+</head>
+
+<body>
+
+	<div class='row'>
+
+		<div class='col-md-12'>
+
+			<div class='jumbotron'>
+				<h1 class='title'>Gif Generator</h1>
+				<p class='titleSub'>Click on a button to generate gifs of your favorite <div class='nineties'>90s</div> TV shows!</p>
+				<hr class ='mr-4 ml-4'>
+				<p class='titleNote'>Once gifs are generated, start or stop animation by clicking the gif itself, or create your own gif generator button!</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class='row'>
+
+		<div class='col-md-7'>
+
+			<div class='card button-card'>
+				<div class='card-body'>
+					<div class ='card-header' id='button-header'>Gif Generator Buttons</div>
+					<div id='buttons'></div>
+				</div>
+			</div>
+
+
+		</div>
+		
+		<div class='col-md-5'>
+
+				<div id='form'>
+					<form role="form">
+						<div class="form-group">
+							<label for="show-input">Add a show:</label>
+							<input class="form-control" id="show-input" type="text">
+							<button class="btn btn-dark" id="add-show" type="submit">Submit</button>
+							<br>
+							<button class="btn btn-dark" id="refresh" type="refresh">Delete gifs</button>
+						</div>	
+					</form>
+				</div>
+
+		</div>
+
+	</div>
+
+	<div class='row'>
+
+		<div class='col-md-12'>
+			<div id='giphy'></div>
+		</div>
+
+
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/ajax-script.js" type="text/javascript"></script>
+
+</body>
+</html>

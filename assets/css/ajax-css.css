@@ -1,0 +1,121 @@
+
+/*Styling for jumbotron header*/
+.jumbotron {
+	margin: 20px;
+	height: 250px;
+	padding: 20px;
+	background-image: url('../images/wormz.png');
+	text-align: center;
+}
+
+.title {
+	font-size: 100px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.titleSub {
+	font-family: 'Raleway', sans-serif;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.titleNote {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.nineties {
+	display: inline-block;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*Background pattern for body*/
+body {
+	background-image: url('../images/dust_scratches.png')
+}
+
+/*Styling for gif generator buttons card*/
+#buttons {
+	margin-left: 20px;
+}
+
+#button-header {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.show {
+	margin: 5px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.button-card {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+/*Styling for form*/
+label {
+	font-family: 'Raleway', sans-serif;
+}
+
+#add-show {
+	margin-top: 10px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#refresh {
+	margin-top: 10px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#form {
+	display:inline-block;
+	margin-left:20px;
+	margin-right: 20px;
+	width: 90%;
+}
+
+/*Styling for generated gifs*/
+
+.gifImageDiv{
+	display: inline-block;
+	margin-top: -10px;
+}
+
+#gifImage:hover {
+	cursor: pointer;
+}
+
+#giphy {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.gifImageDiv {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*Media queries for changing the size of jumbotron background image on smaller screens*/
+@media screen and (max-width: 855px) {
+	.jumbotron {
+		height: 275px;
+	}
+}
+
+@media screen and (max-width: 651px) {
+	.jumbotron {
+		height: 400px;
+	}
+}
