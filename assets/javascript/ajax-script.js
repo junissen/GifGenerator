@@ -21,7 +21,7 @@ function displayGifs() {
 	// Grabs search attribute of button
 	var show = this.getAttribute("data-show");
 	// Provides query URL using search term and apiKey, at a limit 10 gifs
-	var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=" + apiKey + "&q=" + show + "&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + apiKey + "&q=" + show + "&limit=10";
 
 	// AJAX request for GIPHY
 	$.ajax({
